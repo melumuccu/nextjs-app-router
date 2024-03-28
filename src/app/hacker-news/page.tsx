@@ -12,16 +12,20 @@ export default async function Top20Page() {
         <h1>Hacker News Viewer</h1>
         <h2>Top 20</h2>
       </header>
-      <div>
-        <ul className={styles.newsList}>
-          {/* item.id は どうやら一意になってない様子なのでkeyには使わない */}
-          {top20.map((item, i) => (
-            <li key={i}>
-              <Link href={`/top20/${item.id}`}>{item.title}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <main className={styles.main}>
+        <div className={styles.sidebar}>
+          <ul className={styles.newsList}>
+            {/* item.id は どうやら一意になってない様子なのでkeyには使わない */}
+            {top20.map((item, i) => (
+              <li key={i}>
+                <Link href={`/top20/${item.id}`}>{item.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <hr />
+        <div className="content">content</div>
+      </main>
     </div>
   );
 }
