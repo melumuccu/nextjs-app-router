@@ -1,0 +1,37 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.author {
+  font-weight: 700;
+}
+
+.postDate {
+  font-weight: 700;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comments ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comments li {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
