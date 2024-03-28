@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.newsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
