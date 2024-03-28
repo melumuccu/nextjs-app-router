@@ -8,8 +8,11 @@ export async function getTopNews() {
 }
 
 /**
- * Hacker Newsの記事の詳細データを取得する
+ * Hacker Newsの記事の
+ * 1. 詳細データ
+ * 2. コメントデータ
+ * を取得する(共通のAPIとなっている)
  */
-export async function getNewsDetail(id: number) {
+export async function getHackerNewsItem(id: number) {
   return fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`).then(res => res.json());
 }
