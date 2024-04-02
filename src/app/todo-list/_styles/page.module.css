@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.main > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todoList > li {
+  display: flex;
+  gap: 0.5rem;
+}
