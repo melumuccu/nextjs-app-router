@@ -8,6 +8,9 @@ export default function Home() {
         <li key="hacker-news">
           <a href="/hacker-news">Hacker News</a>
         </li>
+        <li key="todo-list">
+          <a href="/todo-list">ToDo List</a>
+        </li>
       </ul>
     </main>
   );

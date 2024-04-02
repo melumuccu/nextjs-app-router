@@ -9,6 +9,7 @@ export default async function HackerNewsLayout({ children }: PropsWithChildren) 
 
   return (
     <div className={styles.page}>
+      <a href="/">← Top</a>
       <header>
         <h1>Hacker News Viewer</h1>
         <h2>Top 20</h2>
